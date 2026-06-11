@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevCorp - Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>DevCorp</h2>
+        <ul>
+            <li><a href="#" class="active">📊 Dashboard</a></li>
+            <li><a href="#">📈 Analysen</a></li>
+            <li><a href="#">👥 Kunden</a></li>
+            <li><a href="#">⚙️ Einstellungen</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h1>Willkommen zurück, Admin!</h1>
+            <div class="user-info">📅 11. Juni 2026 | 👤 Status: Aktiv</div>
+        </header>
+
+        <div class="card-container">
+            <div class="card card-blue">
+                <h3>Monatsumsatz</h3>
+                <p class="number">14.250 €</p>
+                <span class="trend positive">▲ +12% zum Vormonat</span>
+            </div>
+            <div class="card card-green">
+                <h3>Neue Kunden</h3>
+                <p class="number">+48</p>
+                <span class="trend positive">▲ +5% diese Woche</span>
+            </div>
+            <div class="card card-orange">
+                <h3>Offene Tickets</h3>
+                <p class="number">7</p>
+                <span class="trend negative">▼ -2 gelöst</span>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <h2>Letzte Aktivitäten</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Projekt</th>
+                        <th>Entwickler</th>
+                        <th>Status</th>
+                        <th>Priorität</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Budget App (Python)</td>
+                        <td>Du</td>
+                        <td><span class="badge badge-done">Fertig</span></td>
+                        <td>Hoch</td>
+                    </tr>
+                    <tr>
+                        <td>Web Dashboard</td>
+                        <td>Du</td>
+                        <td><span class="badge badge-progress">In Arbeit</span></td>
+                        <td>Mittel</td>
+                    </tr>
+                    <tr>
+                        <td>Java OOP Simulation</td>
+                        <td>Du</td>
+                        <td><span class="badge badge-todo">Geplant</span></td>
+                        <td>Hoch</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
