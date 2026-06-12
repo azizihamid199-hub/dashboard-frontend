@@ -21,4 +21,4 @@ A modern, clean, and fully responsive Admin Dashboard interface built from scrat
 
 1. Clone this repository to your local machine:
    ```bash
-  [https://github.com/YOUR-USERNAME/dashboard-frontend.git](https://github.com/azizihamid199-hub/dashboard-frontend.git)
+  [https://github.com/azizihamid199-hub/dashboard-frontend.git](https://github.com/azizihamid199-hub/dashboard-frontend.git)
